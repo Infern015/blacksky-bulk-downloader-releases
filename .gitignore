@@ -1,0 +1,42 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Build output
+build/
+dist/
+*.spec
+launcher/dist/
+installer/dist/
+
+# Local launcher configuration
+launcher/launcher_config.json
+
+# Application downloads
+blacksky_downloads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Certificates / signing material
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Logs
+*.log
